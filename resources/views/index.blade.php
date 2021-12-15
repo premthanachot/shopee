@@ -397,6 +397,9 @@
         }
     </style>
 
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -405,6 +408,9 @@
 </head>
 
 <body class="antialiased">
+    <div id="app">
+        <example-component></example-component>
+    </div>
     Welcome to my shopee
     <br>
     <div class="center">
